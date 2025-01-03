@@ -1,5 +1,3 @@
-import { SliderMark } from '@mui/material';
-
 // helper for mater=ial UI slider to generate marks array
 export const generateSliderMarks = (min: number, max: number, chunks: number) => {
   if (chunks <= 0) throw new Error('Chunks must be greater than 0');
